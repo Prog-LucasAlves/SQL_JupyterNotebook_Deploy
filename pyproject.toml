@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "sql-jupyternotebook-deploy"
+version = "0.1.0"
+description = ""
+authors = ["Prog-LucasAlves <lucasalves_taz@hotmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+pre-commit-hooks = "^4.5.0"
+
+
+[tool.poetry.group.dev.dependencies]
+commitizen = "^3.13.0"
+pre-commit = "^3.6.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
