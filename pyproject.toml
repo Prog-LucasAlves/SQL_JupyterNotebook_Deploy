@@ -8,6 +8,9 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.11"
 pre-commit-hooks = "^4.5.0"
+sqlalchemy = "^2.0.24"
+psycopg2-binary = "^2.9.9"
+python-dotenv = "^1.0.0"
 
 
 [tool.poetry.group.dev.dependencies]
