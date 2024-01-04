@@ -11,6 +11,7 @@ pre-commit-hooks = "^4.5.0"
 sqlalchemy = "^2.0.24"
 psycopg2-binary = "^2.9.9"
 python-dotenv = "^1.0.0"
+taskipy = "^1.12.2"
 
 
 [tool.poetry.group.dev.dependencies]
@@ -20,3 +21,7 @@ pre-commit = "^3.6.0"
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
+
+
+[tool.taskipy.tasks]
+activate = ".venv/Scripts/activate"
