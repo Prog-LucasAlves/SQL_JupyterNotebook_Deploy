@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 # Carregando as variáveis de ambiente do arquivo .env
-load_dotenv()
+load_dotenv(dotenv_path=".env.prod")
 
 # Obtendo as variáveis de ambiente do banco de dados
 db_user = os.getenv("POSTGRES_USER")
